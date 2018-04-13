@@ -97,6 +97,9 @@ Appropriate uses for a Bash script are:
   be able to supply all input on the command line. The one exception to this
   is reading data in from other commands.
 
+### Test Conditionals
+* When executing `test` or `[` use && and || syntax, instead of -a and -o. [Why?](http://mywiki.wooledge.org/BashFAQ/031#np2)
+
 ### Running
 * All scripts that could be sourced or be executed should separate sourcing
   and execution paths. See below
